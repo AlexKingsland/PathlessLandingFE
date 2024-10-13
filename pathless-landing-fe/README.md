@@ -68,3 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Run backend server locally
+- Clone the PathlessLandingBE repo
+- Follow readme over there to setup appropriate env vars and setup local DB then start up flask server
+- Set the REACT_APP_PATHLESS_SUBSCRIBE_URL env var to local subscribe endpoint
