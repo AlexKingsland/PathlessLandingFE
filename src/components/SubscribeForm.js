@@ -28,6 +28,7 @@ const SubscribeForm = () => {
             try {
                 const response = await fetch(`${process.env.REACT_APP_PATHLESS_SUBSCRIBE_URL}`, {
                     method: 'POST',
+                    mode: 'cors',
                     headers: {
                         'Content-Type': 'application/json',
                     },
